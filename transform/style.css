@@ -1,0 +1,18 @@
+#box{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    /* transform:rotate(50deg); */
+    
+    /* transition-delay: 3s; */
+
+}
+#box:hover{
+    background-color: blue;
+    transform:rotate(50deg);
+    
+}
+#box{
+    transition-delay: 5s;
+    background-color: yellow;   
+}

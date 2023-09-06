@@ -1,0 +1,46 @@
+div:nth-child(1){
+    height: 150px;
+    width: 150px;
+background-color: red;
+animation-name: movingbox;
+animation-duration: 1s;
+transform:translate(500px);
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+
+
+
+
+}
+div:nth-child(2){
+    height: 150px;
+    width: 150px;
+background-color:green;
+animation-name: movingbox;
+animation-duration: 1s;
+transform:translate(500px);
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+
+}
+div:nth-child(3){
+    height: 150px;
+    width: 150px;
+background-color: yellow;
+animation-name: movingbox;
+animation-duration: 1s;
+transform:translate(500px);
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+
+}
+@keyframes movingBox {
+from{
+    background-color: red;
+    transform: translate(0px);
+}  
+to{
+    background-color: blue;
+    transform: translate(1000px);
+}  
+}
